@@ -36,9 +36,10 @@ submitBtn.onclick = function(){
             resultElement.innerHTML = sum
     }else if(action == "*"){
             let sum = Number(input1.value) * Number(input2.value)
-            resultElement.innerHTML = sum
+            resultElement.innerHTML =  parseInt(sum)
     }else if(action == "/"){
             let sum = Number(input1.value) / Number(input2.value)
-            resultElement.innerHTML = sum
+            resultElement.innerHTML = parseInt(sum)
     }
 }
+
